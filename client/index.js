@@ -11,9 +11,9 @@ import './base.css';
 
 function logger({ getState }) {
   return next => (action) => {
-    console.log('dispatching', action);
+    console.log('Dispatching: ', action);
     const val = next(action);
-    console.log('state', getState());
+    console.log('State: ', getState());
     return val;
   };
 }
