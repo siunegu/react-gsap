@@ -1,7 +1,7 @@
 {
-  "name": "ui-three",
+  "name": "react-gsap",
   "version": "0.0.1",
-  "description": "ui starter project",
+  "description": "ui starter project using gsap",
   "main": "index.js",
   "author": "Eugene Lai",
   "license": "MIT",
