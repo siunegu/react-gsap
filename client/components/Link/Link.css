@@ -1,0 +1,14 @@
+.link, .link:hover, .link:visited {
+  color: #333333;
+  text-decoration: none;
+}
+
+.link__title {
+  padding: 24px;
+  margin-bottom: 4px;
+  background-color: #f1f1f1; 
+}
+
+.link__title:last-child {
+  margin-bottom: 0;
+}

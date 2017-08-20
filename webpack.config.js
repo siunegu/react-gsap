@@ -22,23 +22,23 @@ module.exports = {
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
       {
-            test: /\.css$/,
-            exclude: /node_modules/,
-            use: [
-                {
-                    loader: 'style-loader',
-                },
-                {
-                    loader: 'css-loader',
-                    options: {
-                        importLoaders: 1,
-                    }
-                },
-                {
-                    loader: 'postcss-loader'
-                }
-            ]
-        }
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1
+            }
+          },
+          {
+            loader: 'postcss-loader'
+          }
+        ]
+      }
     ]
   },
   plugins: [HtmlWebpackPluginConfig]
